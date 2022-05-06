@@ -5,10 +5,10 @@ linkTitle: "Announcing Docsy"
 description: "The Docsy Hugo theme lets project maintainers and contributors focus on content, not on reinventing a website infrastructure from scratch"
 author: Riona MacNamara ([@rionam](https://twitter.com/bepsays))
 resources:
-- src: "**.{png,jpg}"
-  title: "Image #:counter"
-  params:
-    byline: "Photo: Riona MacNamara / CC-BY-CA"
+  - src: "**.{png,jpg}"
+    title: "Image #:counter"
+    params:
+      byline: "Photo: Riona MacNamara / CC-BY-CA"
 ---
 
 **This is a typical blog post that includes images.**
@@ -25,22 +25,20 @@ Fetch and scale an image in the upcoming Hugo 0.43.
 
 The front matter of this post specifies properties to be assigned to all image resources:
 
-```
+```yml
 resources:
-- src: "**.{png,jpg}"
-  title: "Image #:counter"
-  params:
-    byline: "Photo: Riona MacNamara / CC-BY-CA"
+  - src: "**.{png,jpg}"
+    title: "Image #:counter"
+    params:
+      byline: "Photo: Riona MacNamara / CC-BY-CA"
 ```
 
 To include the image in a page, specify its details like this:
 
-```
+```markdown
 {{< imgproc sunset Fill "600x300" >}}
 Fetch and scale an image in the upcoming Hugo 0.43.
 {{< /imgproc >}}
 ```
 
 The image will be rendered at the size and byline specified in the front matter.
-
-
