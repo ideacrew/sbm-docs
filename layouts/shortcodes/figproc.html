@@ -15,7 +15,7 @@
 {{ $image := .Scratch.Get "image" }}
 <div class="text-center">
 	<figure id="{{ $imgid }}" class="figure mr-5" style="max-width: {{ add $image.Width 10 }}px;">
-		<img alt="{{ $altText }}" src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
+		<img alt="{{ $altText }}" src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" loading="lazy">
 		{{- with .Inner -}}
 		<figcaption class="figure-caption px-0 pt-2 pb-0">
 			<p>{{ . }}
