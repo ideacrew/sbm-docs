@@ -4,6 +4,8 @@ date: 2017-01-05
 weight: 2
 description: >
   A description of how to register as a new consumer.
+resources:
+  - src: "**.{png,jpg,webp}"
 ---
 
 {{% pageinfo %}}
@@ -13,6 +15,9 @@ This section details how a consumer can register an account on the exchange whil
 ## Step 1
 
 The consumer will navigate to the exchange sign-in page to create an account using an email or username and password.
+
+{{< figproc "step-1" Resize "1100x" "step one of consumer registration" >}}
+{{< /figproc >}}
 
 ## Step 2
 

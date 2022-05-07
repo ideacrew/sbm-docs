@@ -1,0 +1,34 @@
+{{ $imgid := .Get 0 }}
+{{ $original := .Page.Resources.GetMatch (printf "**%s*" $imgid ) }}
+{{ $command := .Get 1 }}
+{{ $options := .Get 2 }}
+{{ $altText := .Get 3}}
+{{ if eq $command "Fit"}}
+{{ .Scratch.Set "image" ($original.Fit $options) }}
+{{ else if eq $command "Resize"}}
+{{ .Scratch.Set "image" ($original.Resize $options) }}
+{{ else if eq $command "Fill"}}
+{{ .Scratch.Set "image" ($original.Fill $options) }}
+{{ else }}
+{{ errorf "Invalid image processing command: Must be one of Fit, Fill or Resize."}}
+{{ end }}
+{{ $image := .Scratch.Get "image" }}
+<div class="text-center">
+	<figure id="{{ $imgid }}" class="figure mr-5" style="max-width: {{ add $image.Width 10 }}px;">
+		<img alt="{{ $altText }}" src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
+		{{- with .Inner -}}
+		<figcaption class="figure-caption px-0 pt-2 pb-0">
+			<p>{{ . }}
+		{{ else }}
+		<figcaption class="figure-caption px-0 pt-2 pb-0">
+			{{- with $image.Title -}}
+			<p>{{ . }}
+			{{- end -}}
+		{{- end -}}
+			{{- with $image.Params.byline -}}
+			<small class="text-muted"><br/>{{ . | html }}</small>
+			{{- end -}}
+			</p>
+		</figcaption>
+	</figure>
+</div>
