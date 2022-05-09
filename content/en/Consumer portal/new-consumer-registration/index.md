@@ -23,13 +23,22 @@ The consumer will navigate to the exchange sign-in page to create an account usi
 
 Once the account has been created, the consumer will land on the “Your Information” page which outlines privacy information and general information about the application.
 
+{{< figproc "step-2" Resize "1100x" "step two of consumer registration" >}}
+{{< /figproc >}}
+
 ## Step 3
 
 After clicking the “Continue” button on the previous page, the consumer will land in the Account Setup section where they will enter their personal information.
 
+{{< figproc "step-3" Resize "1100x" "step three of consumer registration" >}}
+{{< /figproc >}}
+
 ## Step 4
 
 Clicking “Continue” on this page will trigger the person lookup. If the person with the given combination of Personally Identifiable Information (PII) does not exist in the system you will see a green banner signaling that the person has been saved and tied to this given account. If a person already exists in the system with the given PII, an error message will appear prompting the consumer to sign in to their existing account. The platform utilizes the combination of SSN and Date of Birth (DOB) to validate uniqueness however if SSN is validly not present then it will utilize the combination of First Name, Last Name and DOB for a given account holder.
+
+{{< figproc "step-4" Resize "1100x" "step four of consumer registration" >}}
+{{< /figproc >}}
 
 ## Step 5
 
