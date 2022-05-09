@@ -69,13 +69,13 @@ id = "UA-00000000-0"
 
 [languages]
 [languages.en]
-title = "Goldydocs"
-description = "A Docsy example site"
+title = "SBM Documentation"
+description = "Documentation for the State-based Marketplace application"
 languageName ="English"
 # Weight used for sorting.
 weight = 1
 [languages.no]
-title = "Goldydocs"
+title = "SBM Documentation"
 description = "Docsy er operativsystem for skyen"
 languageName ="Norsk"
 contentDir = "content/no"
@@ -134,7 +134,7 @@ url_latest_version = "https://sbm-docs.web.app"
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
 github_repo = "https://github.com/ideacrew/sbm-docs"
 # An optional link to a related project repo. For example, the sibling repository where your product code lives.
-github_project_repo = "https://github.com/google/docsy"
+github_project_repo = "https://github.com/ideacrew/sbm-docs"
 
 # Specify a value here if your content directory is not in your repo's root directory
 # github_subdir = ""
