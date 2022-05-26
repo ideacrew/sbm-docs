@@ -9,7 +9,7 @@ resources:
 ---
 
 {{% pageinfo %}}
-This section details how a employer can register an account on the exchange while applying for unassisted coverage.
+This section details how a consumer can register an account on the exchange while applying for unassisted coverage.
 {{% /pageinfo %}}
 
 ## Step 1
