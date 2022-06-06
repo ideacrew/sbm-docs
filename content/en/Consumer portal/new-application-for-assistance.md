@@ -1,7 +1,7 @@
 ---
 title: "New Application For Assistance"
 date: 2017-01-05
-weight: 4
+weight: 3
 description: >
   Instructions on how to create a new application for assistance
 ---

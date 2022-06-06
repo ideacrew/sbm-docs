@@ -1,7 +1,7 @@
 ---
 title: "Consumer Portal"
 linkTitle: "Consumer Portal"
-weight: 10
+weight: 1
 description: >
   Consumer portal documentation
 ---
