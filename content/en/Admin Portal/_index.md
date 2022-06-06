@@ -1,9 +1,9 @@
 ---
-title: "Consumer Portal"
-linkTitle: "Consumer Portal"
-weight: 2
+title: "Admin Portal"
+linkTitle: "Admin Portal"
+weight: 1
 description: >
-  Consumer portal documentation
+  Admin portal documentation
 ---
 
 {{% pageinfo %}}
