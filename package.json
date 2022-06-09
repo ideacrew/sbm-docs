@@ -5,7 +5,7 @@
   "main": "none.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "hugo server --disableFastRender"
+    "dev": "hugo server --disableFastRender --liveReloadPort 443"
   },
   "repository": {
     "type": "git",
