@@ -1,7 +1,18 @@
-<img
-  class="cloudinary-img"
-  src="https://res.cloudinary.com/ideacrew/image/upload/c_scale,f_auto,q_auto,w_1100/v1654538852/sbm-docs/{{ .Get "src" }}"
-  alt="{{ .Get "alt" }}"
-  loading="lazy"
-  width="1100"
-  height="300">
+<picture>
+
+  <source
+    media="(min-width: 800px)"
+    srcset="https://res.cloudinary.com/ideacrew/image/upload/c_scale,f_auto,q_auto,w_1100/v1654538852/sbm-docs/{{ .Get "src" }}"
+    width="1100"
+    height="300"
+    loading="lazy">
+
+  <img
+    class="cloudinary-img"
+    src="https://res.cloudinary.com/ideacrew/image/upload/c_scale,f_auto,q_auto,w_500/v1654538852/sbm-docs/{{ .Get "src" }}"
+    alt="{{ .Get "alt" }}"
+    loading="lazy"
+    width="500"
+    height="200">
+
+</picture>
