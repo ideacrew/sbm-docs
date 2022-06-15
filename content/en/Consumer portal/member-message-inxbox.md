@@ -34,10 +34,10 @@ Upon clicking the hyperlink, the notice form will expand to show the detailed co
 
 _**Deleted Filter**_
 
-The member has the ability to remove a message from your **Inbox** to the **Deleted** tab filter via the trash can icon next to the notice. 
+The member has the ability to remove a message from your **Inbox** to the **Deleted** tab filter via the trash can icon next to the notice.
 
 {{< cloudinary src="membermessageinboxdeletedstep2.jpg" alt="Subscriber's Opened Message Deleted Tab Arrow" >}}
 
-Upon clicking, the notice will be sent to the **Deleted** tab filter and subsequently removed from the **Inbox**.  Additionally, a success message popup displays upon removal.If the member ever needs to reference the deleted message, you can do so simply by clicking the **Deleted** tab filter and the message will be present there. 
+Upon clicking, the notice will be sent to the **Deleted** tab filter and subsequently removed from the **Inbox**.  Additionally, a success message popup displays upon removal.If the member ever needs to reference the deleted message, you can do so simply by clicking the **Deleted** tab filter and the message will be present there.
 
 {{< cloudinary src="membermessageinboxdeletedviewstep2.jpg" alt="Subscriber's Opened Message Deleted Inbox View" >}}
